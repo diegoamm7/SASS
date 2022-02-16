@@ -1,0 +1,43 @@
+$colorbg: salmon;
+$widthH1: 800px;
+$w2: $widthH1 + 20px;
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+    
+
+}
+
+h1{
+    color: $colorbg;
+    background-color: white;
+    padding: 15px;
+    width: $widthH1;
+    display: inline-block;
+
+}
+p{
+    width: $w2;
+    margin: 60px 0;
+    display: inline-block;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 60px 0;
+
+    li{
+        display: inline-block;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        background-color: black;
+    }
+}
